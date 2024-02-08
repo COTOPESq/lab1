@@ -1,4 +1,15 @@
 ﻿  function.cpp
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(16,16): error C2061: синтаксическая ошибка: идентификатор "ostream"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\function.cpp(25,12): error C2511: void kvad::printfun(std::ostream &): перегруженная функция-член не найдена в "kvad"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(4,7): message : см. объявление "kvad"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\function.cpp(26,18): error C2597: недопустимая ссылка на нестатический член "kvad::a"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(7,9): message : см. объявление "kvad::a"
   main.cpp
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(16,16): error C2061: синтаксическая ошибка: идентификатор "ostream"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\main.cpp(23,11): error C2660: kvad::printfun: функция не принимает 1 аргументов
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(16,7): message : см. объявление "kvad::printfun"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\main.cpp(23,11): message : при попытке сопоставить список аргументов "(std::ofstream)"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\main.cpp(43,11): error C2660: kvad::printfun: функция не принимает 1 аргументов
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\Header.h(16,7): message : см. объявление "kvad::printfun"
+C:\Users\slava\source\repos\COTOPESq\lab1\lab1\main.cpp(43,11): message : при попытке сопоставить список аргументов "(std::ofstream)"
   Создание кода...
-  lab1.vcxproj -> C:\Users\slava\source\repos\COTOPESq\lab1\x64\Debug\lab1.exe

@@ -3,6 +3,8 @@
 
 using namespace std;
 
+kvad::kvad() {}
+
 kvad::kvad(double a_val, double b_val, double c_val) : a(a_val), b(b_val), c(c_val) {}
 
 double kvad::getA() {
@@ -20,6 +22,6 @@ double kvad::calculatedisc() {
 	return b * b - 4 * a * c;
 }
 
-void kvad::printfun() {
-	cout << "a: " << a << " b: " << b << " c: " << c << endl;
+void kvad::printfun(ostream& out) {
+	out << "a: " << a << " b: " << b << " c: " << c << endl;
 }
